@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family code="2099" desc="Lottery Game" organizationName="Interactive" studio="crdc">
+	<game name="Loteria WLA" version="1.0.16" gameengineversion="2" gamelogicversion="1.0"
+		number="0"
+		gamegroup="eGames"
+		gametype="L"
+		jackpotid=""
+		loadprevstate="N"
+		numberGenerator="RNG"
+		spots=""
+		productId="1"
+		betMultipliers="50,100,200,300,500,1000,2000,5000,10000"
+		languages="en,en_US,nb_NO,pt_BR,pl_PL"
+		skbPlatformVersion="1.4.0"
+		merchandisePrize="N"
+		stateful="N">
+
+		<!-- NT 10 kr -->
+		<paymodel name="Loteria : 300-2099-001"
+			modelid="300-2099-001"
+			cointhreshold="0"
+			confidentlevelpct="95"
+			fixedminmax="Y"
+			hibethold="25.00"
+			lobethold="25.00"
+			hibetsd="3.641"
+			lobetsd="3.641"
+			maxmainbetwin="0"
+			maxsidebetwin="0"
+			maxcoins="1000"
+			mincoins="0"
+			revealId="2099"
+			revealVersionId="2099" />
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2099-001" />
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2099-001" />
+
+		<!-- RGS COM $10 -->
+		<!--<paymodel name="Loteria : 300-2099-002"
+			modelid="300-2099-002"
+			cointhreshold="0"
+			confidentlevelpct="95"
+			fixedminmax="Y"
+			hibethold="25.00"
+			lobethold="25.00"
+			hibetsd="3.641"
+			lobetsd="3.641"
+			maxmainbetwin="0"
+			maxsidebetwin="0"
+			maxcoins="1000"
+			mincoins="0"
+			revealId="2099"
+			revealVersionId="2099" />
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2099-002" />
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2099-002" />-->
+
+		<!-- BRZ $0.50, $1, $2, $5, $10, $20, $50, $100 -->
+		<!--<paymodel name="Loteria : 300-2099-003"
+			modelid="300-2099-003"
+			cointhreshold="0"
+			confidentlevelpct="95"
+			fixedminmax="Y"
+			hibethold="25.00"
+			lobethold="25.00"
+			hibetsd="3.641"
+			lobetsd="3.641"
+			maxmainbetwin="0"
+			maxsidebetwin="0"
+			maxcoins="1000"
+			mincoins="0"
+			revealId="2099"
+			revealVersionId="2099" />
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2099-003" />
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2099-003" />-->
+
+		<!-- PLT $1, $2, $3, $5, $10, $20 -->
+		<paymodel name="Loteria : 300-2099-004"
+			modelid="300-2099-004"
+			cointhreshold="0"
+			confidentlevelpct="95"
+			fixedminmax="Y"
+			hibethold="29.97"
+			lobethold="25.83"
+			hibetsd="3.641"
+			lobetsd="3.641"
+			maxmainbetwin="0"
+			maxsidebetwin="0"
+			maxcoins="1000"
+			mincoins="0"
+			revealId="2099"
+			revealVersionId="2099" />
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2099-004" />
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2099-004" />
+		
+		<!-- GA  -->
+		<paymodel name="Loteria : 300-2099-005"
+			modelid="300-2099-005"
+			cointhreshold="0"
+			confidentlevelpct="95"
+			fixedminmax="Y"
+			hibethold="29.97"
+			lobethold="25.83"
+			hibetsd="3.641"
+			lobetsd="3.641"
+			maxmainbetwin="0"
+			maxsidebetwin="0"
+			maxcoins="1000"
+			mincoins="0"
+			revealId="4116"
+			revealVersionId="4116" />
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2099-005" />
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2099-005" />
+
+		<!-- KY  -->
+		<paymodel name="Loteria : 300-2099-006"
+			modelid="300-2099-006"
+			cointhreshold="0"
+			confidentlevelpct="95"
+			fixedminmax="Y"
+			hibethold="29.97"
+			lobethold="25.83"
+			hibetsd="3.641"
+			lobetsd="3.641"
+			maxmainbetwin="0"
+			maxsidebetwin="0"
+			maxcoins="1000"
+			mincoins="0"
+			revealId="4116"
+			revealVersionId="4116" />
+		<paymodelConfig clienttype="HTML" configcode="IXML" modelid="300-2099-006" />
+		<paymodelConfig clienttype="HTML" configcode="PHLP" modelid="300-2099-006" />
+
+		<denom currencycode="BRL" amount="0.01,0.03"/>
+		<denom currencycode="NOK" amount="0.01" />
+		<denom currencycode="PLN" amount="0.01,0.05"/>
+		<denom currencycode="USD" amount="0.01" />
+	</game>
+	
+</family>
